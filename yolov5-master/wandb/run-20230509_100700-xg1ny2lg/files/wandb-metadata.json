@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.6",
+    "heartbeatAt": "2023-05-09T02:07:04.265170",
+    "startedAt": "2023-05-09T02:07:00.968850",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:/pycharm/govT_project/tianchi_mchar-main/yolov5-master/train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-MFO61JU",
+    "username": "govT",
+    "executable": "E:\\python3.7.6\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1298.0,
+        "min": 0.0,
+        "max": 1498.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1298.0,
+            "min": 0.0,
+            "max": 1498.0
+        }
+    ],
+    "disk": {
+        "total": 466.18749618530273,
+        "used": 297.666316986084
+    },
+    "gpu": "NVIDIA GeForce MX230",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX230",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.772785186767578
+    }
+}

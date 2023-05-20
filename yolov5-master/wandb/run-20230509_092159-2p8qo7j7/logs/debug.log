@@ -1,0 +1,27 @@
+2023-05-09 09:21:59,283 INFO    MainThread:3952 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-05-09 09:21:59,283 INFO    MainThread:3952 [wandb_setup.py:_flush():76] Configure stats pid to 3952
+2023-05-09 09:21:59,283 INFO    MainThread:3952 [wandb_setup.py:_flush():76] Loading settings from C:\Users\govT\.config\wandb\settings
+2023-05-09 09:21:59,283 INFO    MainThread:3952 [wandb_setup.py:_flush():76] Loading settings from E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\settings
+2023-05-09 09:21:59,283 INFO    MainThread:3952 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-09 09:21:59,283 INFO    MainThread:3952 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-09 09:21:59,285 INFO    MainThread:3952 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'E:/pycharm/govT_project/tianchi_mchar-main/yolov5-master/train.py'}
+2023-05-09 09:21:59,285 INFO    MainThread:3952 [wandb_init.py:_log_setup():507] Logging user logs to E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_092159-2p8qo7j7\logs\debug.log
+2023-05-09 09:21:59,285 INFO    MainThread:3952 [wandb_init.py:_log_setup():508] Logging internal logs to E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_092159-2p8qo7j7\logs\debug-internal.log
+2023-05-09 09:21:59,285 INFO    MainThread:3952 [wandb_init.py:init():547] calling init triggers
+2023-05-09 09:21:59,285 INFO    MainThread:3952 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {'weights': 'yolov5s.pt', 'cfg': '', 'data': 'data/mycoco128.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0}, 'epochs': 300, 'batch_size': 16, 'img_size': [640, 640], 'rect': False, 'resume': False, 'nosave': False, 'notest': False, 'noautoanchor': False, 'evolve': False, 'bucket': '', 'cache_images': False, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'local_rank': -1, 'workers': 8, 'project': 'runs/train', 'entity': None, 'name': 'exp', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'upload_dataset': False, 'bbox_interval': -1, 'save_period': -1, 'artifact_alias': 'latest', 'world_size': 1, 'global_rank': -1, 'save_dir': 'runs\\train\\exp8', 'total_batch_size': 16}
+2023-05-09 09:21:59,285 INFO    MainThread:3952 [wandb_init.py:init():596] starting backend
+2023-05-09 09:21:59,285 INFO    MainThread:3952 [wandb_init.py:init():600] setting up manager
+2023-05-09 09:21:59,287 INFO    MainThread:3952 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=spawn, using: spawn
+2023-05-09 09:21:59,292 INFO    MainThread:3952 [wandb_init.py:init():606] backend started and connected
+2023-05-09 09:21:59,295 INFO    MainThread:3952 [wandb_init.py:init():700] updated telemetry
+2023-05-09 09:21:59,297 INFO    MainThread:3952 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-09 09:22:00,306 ERROR   MainThread:3952 [wandb_init.py:init():763] encountered error: The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+2023-05-09 09:22:02,315 ERROR   MainThread:3952 [wandb_init.py:init():1168] The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+Traceback (most recent call last):
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\wandb_init.py", line 1150, in init
+    run = wi.init()
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\wandb_init.py", line 769, in init
+    raise error
+wandb.errors.AuthenticationError: The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+2023-05-09 09:22:03,321 WARNING MsgRouterThr:3952 [router.py:message_loop():77] message_loop has been closed

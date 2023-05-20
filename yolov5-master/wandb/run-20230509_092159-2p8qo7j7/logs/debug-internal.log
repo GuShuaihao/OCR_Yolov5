@@ -1,0 +1,50 @@
+2023-05-09 09:21:59,293 INFO    StreamThr :12608 [internal.py:wandb_internal():89] W&B internal server running at pid: 12608, started at: 2023-05-09 09:21:59.292125
+2023-05-09 09:21:59,297 DEBUG   HandlerThread:12608 [handler.py:handle_request():144] handle_request: status
+2023-05-09 09:21:59,299 INFO    WriterThread:12608 [datastore.py:open_for_write():85] open: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_092159-2p8qo7j7\run-2p8qo7j7.wandb
+2023-05-09 09:21:59,302 DEBUG   SenderThread:12608 [sender.py:send():375] send: header
+2023-05-09 09:21:59,302 DEBUG   SenderThread:12608 [sender.py:send():375] send: run
+2023-05-09 09:21:59,310 INFO    SenderThread:12608 [sender.py:_maybe_setup_resume():762] checking resume status for None/YOLOv5/2p8qo7j7
+2023-05-09 09:22:00,191 ERROR   SenderThread:12608 [internal_api.py:execute():288] 401 response executing GraphQL.
+2023-05-09 09:22:00,191 ERROR   SenderThread:12608 [internal_api.py:execute():289] {"errors":[{"message":"user is not logged in","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}
+2023-05-09 09:22:00,191 ERROR   SenderThread:12608 [sender.py:send_run():979] The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+Traceback (most recent call last):
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\internal\internal_api.py", line 285, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "E:\python3.7.6\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "E:\python3.7.6\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\lib\gql_request.py", line 56, in execute
+    request.raise_for_status()
+  File "E:\python3.7.6\lib\site-packages\requests\models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\internal\sender.py", line 977, in send_run
+    self._init_run(run, config_value_dict)
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\internal\sender.py", line 1029, in _init_run
+    commit=run.git.commit or None,
+  File "E:\python3.7.6\lib\site-packages\wandb\apis\normalize.py", line 73, in wrapper
+    raise err
+  File "E:\python3.7.6\lib\site-packages\wandb\apis\normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1694, in upsert_run
+    **kwargs,
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\internal\internal_api.py", line 260, in gql
+    **kwargs,
+  File "E:\python3.7.6\lib\site-packages\wandb\sdk\lib\retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "E:\python3.7.6\lib\site-packages\wandb\util.py", line 907, in check_retry_fn
+    return fallback_retry_fn(e)
+  File "E:\python3.7.6\lib\site-packages\wandb\util.py", line 839, in no_retry_auth
+    "The API key you provided is either invalid or missing.  "
+wandb.errors.AuthenticationError: The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+2023-05-09 09:22:02,317 DEBUG   HandlerThread:12608 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-09 09:22:02,317 INFO    HandlerThread:12608 [handler.py:finish():845] shutting down handler
+2023-05-09 09:22:03,319 INFO    SenderThread:12608 [sender.py:finish():1550] shutting down sender
+2023-05-09 09:22:03,321 INFO    WriterThread:12608 [datastore.py:close():298] close: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_092159-2p8qo7j7\run-2p8qo7j7.wandb

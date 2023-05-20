@@ -1,0 +1,419 @@
+2023-05-09 10:16:42,271 INFO    StreamThr :12560 [internal.py:wandb_internal():89] W&B internal server running at pid: 12560, started at: 2023-05-09 10:16:42.271755
+2023-05-09 10:16:42,287 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status
+2023-05-09 10:16:42,287 INFO    WriterThread:12560 [datastore.py:open_for_write():85] open: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\run-d0u4h1v3.wandb
+2023-05-09 10:16:42,287 DEBUG   SenderThread:12560 [sender.py:send():375] send: header
+2023-05-09 10:16:42,287 DEBUG   SenderThread:12560 [sender.py:send():375] send: run
+2023-05-09 10:16:42,302 INFO    SenderThread:12560 [sender.py:_maybe_setup_resume():762] checking resume status for None/YOLOv5/d0u4h1v3
+2023-05-09 10:16:43,233 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: check_version
+2023-05-09 10:16:43,236 INFO    SenderThread:12560 [dir_watcher.py:__init__():219] watching files in: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files
+2023-05-09 10:16:43,236 INFO    SenderThread:12560 [sender.py:_start_run_threads():1127] run started: d0u4h1v3 with start time 1683598602.271755
+2023-05-09 10:16:43,236 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 10:16:43,237 INFO    SenderThread:12560 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 10:16:43,237 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: check_version
+2023-05-09 10:16:44,252 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_created():278] file/dir created: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\wandb-summary.json
+2023-05-09 10:16:48,253 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:16:48,253 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: run_start
+2023-05-09 10:16:49,051 DEBUG   HandlerThread:12560 [system_info.py:__init__():31] System info init
+2023-05-09 10:16:49,051 DEBUG   HandlerThread:12560 [system_info.py:__init__():46] System info init done
+2023-05-09 10:16:49,051 INFO    HandlerThread:12560 [system_monitor.py:start():181] Starting system monitor
+2023-05-09 10:16:49,051 INFO    SystemMonitor:12560 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-09 10:16:49,051 INFO    HandlerThread:12560 [system_monitor.py:probe():201] Collecting system info
+2023-05-09 10:16:49,051 INFO    SystemMonitor:12560 [interfaces.py:start():190] Started cpu monitoring
+2023-05-09 10:16:49,051 INFO    SystemMonitor:12560 [interfaces.py:start():190] Started disk monitoring
+2023-05-09 10:16:49,051 INFO    SystemMonitor:12560 [interfaces.py:start():190] Started gpu monitoring
+2023-05-09 10:16:49,051 INFO    SystemMonitor:12560 [interfaces.py:start():190] Started memory monitoring
+2023-05-09 10:16:49,067 INFO    SystemMonitor:12560 [interfaces.py:start():190] Started network monitoring
+2023-05-09 10:16:49,067 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:49,067 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:49,067 DEBUG   HandlerThread:12560 [system_info.py:probe():195] Probing system
+2023-05-09 10:16:49,067 DEBUG   HandlerThread:12560 [system_info.py:probe():240] Probing system done
+2023-05-09 10:16:49,067 DEBUG   HandlerThread:12560 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.7.6', 'heartbeatAt': '2023-05-09T02:16:49.067522', 'startedAt': '2023-05-09T02:16:42.162391', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:/pycharm/govT_project/tianchi_mchar-main/yolov5-master/train.py', 'codePath': 'train.py', 'host': 'DESKTOP-MFO61JU', 'username': 'govT', 'executable': 'E:\\python3.7.6\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1298.0, 'min': 0.0, 'max': 1498.0}, 'cpu_freq_per_core': [{'current': 1298.0, 'min': 0.0, 'max': 1498.0}], 'disk': {'total': 466.18749618530273, 'used': 297.6664848327637}, 'gpu': 'NVIDIA GeForce MX230', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX230', 'memory_total': 4294967296}], 'memory': {'total': 15.772785186767578}}
+2023-05-09 10:16:49,067 INFO    HandlerThread:12560 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-09 10:16:49,067 INFO    HandlerThread:12560 [system_monitor.py:probe():214] Publishing system info
+2023-05-09 10:16:49,067 DEBUG   HandlerThread:12560 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-05-09 10:16:49,067 DEBUG   HandlerThread:12560 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-09 10:16:49,067 INFO    HandlerThread:12560 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-09 10:16:49,083 DEBUG   SenderThread:12560 [sender.py:send():375] send: files
+2023-05-09 10:16:49,083 INFO    SenderThread:12560 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-09 10:16:49,098 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:16:49,098 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:16:49,302 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_created():278] file/dir created: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\requirements.txt
+2023-05-09 10:16:49,303 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_created():278] file/dir created: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\wandb-metadata.json
+2023-05-09 10:16:49,500 DEBUG   SenderThread:12560 [sender.py:send():375] send: telemetry
+2023-05-09 10:16:49,500 DEBUG   SenderThread:12560 [sender.py:send():375] send: telemetry
+2023-05-09 10:16:49,500 DEBUG   SenderThread:12560 [sender.py:send():375] send: config
+2023-05-09 10:16:49,500 DEBUG   SenderThread:12560 [sender.py:send():375] send: config
+2023-05-09 10:16:49,899 INFO    wandb-upload_0:12560 [upload_job.py:push():137] Uploaded file C:\Users\govT\AppData\Local\Temp\tmpl_ivgo3twandb\w5zc2785-wandb-metadata.json
+2023-05-09 10:16:50,306 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_created():278] file/dir created: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:16:51,084 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:51,084 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:52,332 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:16:53,091 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:53,091 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:53,654 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:16:55,113 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:55,113 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:56,359 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:16:57,267 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:57,267 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:58,369 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:16:59,272 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:59,272 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:16:59,511 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:16:59,815 DEBUG   SenderThread:12560 [sender.py:send():375] send: files
+2023-05-09 10:16:59,815 INFO    SenderThread:12560 [sender.py:_save_file():1378] saving file media\images\Labels_0_e9b3fdbfdf38bfedc4c6.jpg with policy now
+2023-05-09 10:16:59,821 DEBUG   SenderThread:12560 [sender.py:send():375] send: files
+2023-05-09 10:16:59,822 INFO    SenderThread:12560 [sender.py:_save_file():1378] saving file media\images\Labels_0_6f50089983d01e64c956.jpg with policy now
+2023-05-09 10:16:59,828 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 10:17:00,391 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_created():278] file/dir created: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\media\images\Labels_0_6f50089983d01e64c956.jpg
+2023-05-09 10:17:00,391 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_created():278] file/dir created: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\media\images\Labels_0_e9b3fdbfdf38bfedc4c6.jpg
+2023-05-09 10:17:00,391 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_created():278] file/dir created: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\media
+2023-05-09 10:17:00,391 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_created():278] file/dir created: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\media\images
+2023-05-09 10:17:01,031 INFO    wandb-upload_1:12560 [upload_job.py:push():137] Uploaded file C:\Users\govT\AppData\Local\Temp\tmpl_ivgo3twandb\p7ri42kr-media/images/Labels_0_6f50089983d01e64c956.jpg
+2023-05-09 10:17:01,176 INFO    wandb-upload_0:12560 [upload_job.py:push():137] Uploaded file C:\Users\govT\AppData\Local\Temp\tmpl_ivgo3twandb\d66px742-media/images/Labels_0_e9b3fdbfdf38bfedc4c6.jpg
+2023-05-09 10:17:01,285 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:01,285 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:02,411 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:03,287 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:03,287 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:04,100 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:17:04,100 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:17:05,300 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:05,300 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:05,363 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:07,310 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:07,310 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:09,328 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:09,328 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:10,400 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:11,341 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:11,341 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:13,363 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:13,363 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:15,376 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:15,376 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:15,439 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:16,490 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\config.yaml
+2023-05-09 10:17:17,396 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:17,396 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:19,102 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:17:19,102 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:17:19,415 ERROR   gpu       :12560 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-09 10:17:19,415 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:19,415 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:21,377 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:21,424 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:21,424 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:23,435 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:23,435 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:25,442 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:25,442 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:26,405 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:27,449 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:27,449 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:29,457 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:29,457 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:31,465 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:31,467 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:31,467 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:33,474 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:33,474 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:34,115 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:17:34,115 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:17:34,626 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:35,501 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:35,501 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:36,585 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:36,646 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:37,505 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:37,505 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:38,658 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:39,518 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:39,518 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:41,526 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:41,526 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:42,580 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:42,673 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:43,533 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:43,533 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:44,701 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:45,536 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:45,536 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:47,553 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:47,553 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:47,795 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:48,732 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:49,067 DEBUG   SystemMonitor:12560 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-09 10:17:49,069 DEBUG   SenderThread:12560 [sender.py:send():375] send: stats
+2023-05-09 10:17:49,118 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:17:49,118 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:17:49,563 ERROR   gpu       :12560 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-09 10:17:49,563 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:49,579 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:51,582 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:51,582 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:52,753 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:53,589 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:53,589 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:53,667 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:54,763 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:55,594 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:55,594 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:56,772 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:17:57,597 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:57,597 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:59,350 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:17:59,609 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:17:59,609 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:00,807 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:01,613 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:01,613 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:02,831 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:03,628 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:03,628 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:04,112 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:18:04,112 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:18:05,314 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:05,637 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:05,637 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:06,858 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:07,650 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:07,650 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:07,872 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:09,667 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:09,667 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:10,315 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:11,684 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:11,684 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:11,912 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:13,703 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:13,703 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:13,924 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:15,445 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:15,727 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:15,728 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:17,748 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:17,749 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:17,943 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:19,074 DEBUG   SenderThread:12560 [sender.py:send():375] send: stats
+2023-05-09 10:18:19,122 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:18:19,123 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:18:19,774 ERROR   gpu       :12560 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-09 10:18:19,780 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:19,780 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:20,796 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:21,793 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:21,793 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:21,979 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:23,806 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:23,806 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:23,987 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:25,809 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:25,809 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:25,856 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:27,818 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:27,818 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:28,015 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:29,825 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:29,825 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:30,048 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:30,889 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:31,833 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:31,833 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:33,833 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:33,833 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:34,083 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:34,146 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:18:34,146 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:18:35,856 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:35,856 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:36,090 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:36,894 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:37,862 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:37,862 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:39,873 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:39,873 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:40,123 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:41,875 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:41,875 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:42,141 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:42,904 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:43,889 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:43,889 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:45,899 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:45,899 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:46,168 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:47,908 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:47,908 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:48,196 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:48,248 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:49,075 DEBUG   SenderThread:12560 [sender.py:send():375] send: stats
+2023-05-09 10:18:49,153 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:18:49,154 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:18:49,931 ERROR   gpu       :12560 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-09 10:18:49,931 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:49,931 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:51,939 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:51,939 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:52,237 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:53,296 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:53,951 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:53,951 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:54,256 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:55,961 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:55,961 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:57,966 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:57,966 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:58,274 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:18:58,320 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:18:59,973 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:18:59,973 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:19:00,286 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:19:01,988 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:19:01,988 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:19:03,340 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:19:03,998 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:19:03,998 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:19:04,173 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 10:19:04,174 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 10:19:04,316 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:19:06,009 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:19:06,010 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:19:06,353 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:19:08,018 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:19:08,018 ERROR   gpu       :12560 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-09 10:19:08,750 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:19:08,792 DEBUG   SenderThread:12560 [sender.py:send():375] send: exit
+2023-05-09 10:19:08,792 INFO    SenderThread:12560 [sender.py:send_exit():598] handling exit code: 255
+2023-05-09 10:19:08,792 INFO    SenderThread:12560 [sender.py:send_exit():600] handling runtime: 140
+2023-05-09 10:19:08,794 INFO    SenderThread:12560 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 10:19:08,794 INFO    SenderThread:12560 [sender.py:send_exit():606] send defer
+2023-05-09 10:19:08,794 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:08,794 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-09 10:19:08,795 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:08,795 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-09 10:19:08,795 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 1
+2023-05-09 10:19:08,795 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:08,795 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-09 10:19:08,795 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:08,795 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-09 10:19:08,795 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 2
+2023-05-09 10:19:08,795 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:08,795 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-09 10:19:08,795 INFO    HandlerThread:12560 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-09 10:19:08,795 DEBUG   SystemMonitor:12560 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-09 10:19:08,796 DEBUG   SystemMonitor:12560 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-09 10:19:08,797 INFO    HandlerThread:12560 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-09 10:19:08,797 INFO    HandlerThread:12560 [interfaces.py:finish():202] Joined disk monitor
+2023-05-09 10:19:08,798 ERROR   gpu       :12560 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-09 10:19:08,798 INFO    HandlerThread:12560 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-09 10:19:08,798 INFO    HandlerThread:12560 [interfaces.py:finish():202] Joined memory monitor
+2023-05-09 10:19:08,798 INFO    HandlerThread:12560 [interfaces.py:finish():202] Joined network monitor
+2023-05-09 10:19:08,798 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:08,798 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-09 10:19:08,798 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 3
+2023-05-09 10:19:08,798 DEBUG   SenderThread:12560 [sender.py:send():375] send: stats
+2023-05-09 10:19:08,798 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:08,798 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-09 10:19:08,798 DEBUG   SenderThread:12560 [sender.py:send():375] send: history
+2023-05-09 10:19:08,798 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 10:19:08,798 INFO    SenderThread:12560 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 10:19:08,798 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:08,798 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-09 10:19:08,798 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 4
+2023-05-09 10:19:08,798 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:08,798 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-09 10:19:08,814 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:08,814 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-09 10:19:08,814 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 5
+2023-05-09 10:19:08,814 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:08,814 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-09 10:19:08,814 DEBUG   SenderThread:12560 [sender.py:send():375] send: summary
+2023-05-09 10:19:08,814 INFO    SenderThread:12560 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 10:19:08,814 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:08,814 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-09 10:19:08,814 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 6
+2023-05-09 10:19:08,814 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:08,814 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-09 10:19:08,814 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:08,814 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-09 10:19:08,814 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 7
+2023-05-09 10:19:08,814 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:19:08,814 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:08,814 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-09 10:19:08,814 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:08,814 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-09 10:19:09,387 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\wandb-summary.json
+2023-05-09 10:19:09,799 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-09 10:19:10,387 INFO    Thread-12 :12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:19:12,112 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 8
+2023-05-09 10:19:12,112 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: poll_exit
+2023-05-09 10:19:12,112 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:12,112 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-09 10:19:12,113 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:12,113 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-09 10:19:12,114 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 9
+2023-05-09 10:19:12,114 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:12,114 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-09 10:19:12,114 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:12,114 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-09 10:19:12,114 INFO    SenderThread:12560 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-09 10:19:12,399 INFO    SenderThread:12560 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:19:12,399 INFO    SenderThread:12560 [dir_watcher.py:finish():395] scan: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files
+2023-05-09 10:19:12,399 INFO    SenderThread:12560 [dir_watcher.py:finish():409] scan save: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\config.yaml config.yaml
+2023-05-09 10:19:12,399 INFO    SenderThread:12560 [dir_watcher.py:finish():409] scan save: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log output.log
+2023-05-09 10:19:12,399 INFO    SenderThread:12560 [dir_watcher.py:finish():409] scan save: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\requirements.txt requirements.txt
+2023-05-09 10:19:12,399 INFO    SenderThread:12560 [dir_watcher.py:finish():409] scan save: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\wandb-metadata.json wandb-metadata.json
+2023-05-09 10:19:12,399 INFO    SenderThread:12560 [dir_watcher.py:finish():409] scan save: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\wandb-summary.json wandb-summary.json
+2023-05-09 10:19:12,417 INFO    SenderThread:12560 [dir_watcher.py:finish():409] scan save: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\media\images\Labels_0_6f50089983d01e64c956.jpg media\images\Labels_0_6f50089983d01e64c956.jpg
+2023-05-09 10:19:12,417 INFO    SenderThread:12560 [dir_watcher.py:finish():409] scan save: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\media\images\Labels_0_e9b3fdbfdf38bfedc4c6.jpg media\images\Labels_0_e9b3fdbfdf38bfedc4c6.jpg
+2023-05-09 10:19:12,417 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 10
+2023-05-09 10:19:12,418 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:12,418 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-09 10:19:12,418 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:12,418 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-09 10:19:12,418 INFO    SenderThread:12560 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-09 10:19:13,079 INFO    wandb-upload_3:12560 [upload_job.py:push():137] Uploaded file E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\config.yaml
+2023-05-09 10:19:13,095 INFO    wandb-upload_4:12560 [upload_job.py:push():137] Uploaded file E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\output.log
+2023-05-09 10:19:13,454 INFO    wandb-upload_2:12560 [upload_job.py:push():137] Uploaded file E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\wandb-summary.json
+2023-05-09 10:19:13,501 INFO    wandb-upload_1:12560 [upload_job.py:push():137] Uploaded file E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\files\requirements.txt
+2023-05-09 10:19:13,704 INFO    Thread-11 :12560 [sender.py:transition_state():626] send defer: 11
+2023-05-09 10:19:13,704 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:13,704 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-09 10:19:13,704 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:13,704 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-09 10:19:13,704 INFO    SenderThread:12560 [file_pusher.py:join():172] waiting for file pusher
+2023-05-09 10:19:13,704 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 12
+2023-05-09 10:19:13,704 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:13,704 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-09 10:19:13,704 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:13,704 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-09 10:19:14,841 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-09 10:19:14,841 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 13
+2023-05-09 10:19:14,841 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:14,841 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-09 10:19:14,841 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 10:19:14,841 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:14,841 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-09 10:19:14,841 INFO    SenderThread:12560 [sender.py:transition_state():626] send defer: 14
+2023-05-09 10:19:14,841 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 10:19:14,841 INFO    HandlerThread:12560 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-09 10:19:14,841 DEBUG   SenderThread:12560 [sender.py:send():375] send: final
+2023-05-09 10:19:14,841 DEBUG   SenderThread:12560 [sender.py:send():375] send: footer
+2023-05-09 10:19:14,841 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: defer
+2023-05-09 10:19:14,841 INFO    SenderThread:12560 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-09 10:19:14,841 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-09 10:19:14,841 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: server_info
+2023-05-09 10:19:14,841 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-09 10:19:14,841 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-09 10:19:14,841 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: poll_exit
+2023-05-09 10:19:14,857 DEBUG   SenderThread:12560 [sender.py:send_request():402] send_request: server_info
+2023-05-09 10:19:15,364 INFO    MainThread:12560 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-05-09 10:19:15,364 INFO    MainThread:12560 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-05-09 10:19:15,364 INFO    MainThread:12560 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-05-09 10:19:15,364 DEBUG   HandlerThread:12560 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-09 10:19:15,364 INFO    HandlerThread:12560 [handler.py:finish():845] shutting down handler
+2023-05-09 10:19:15,864 INFO    WriterThread:12560 [datastore.py:close():298] close: E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\wandb\run-20230509_101642-d0u4h1v3\run-d0u4h1v3.wandb
+2023-05-09 10:19:16,379 INFO    SenderThread:12560 [sender.py:finish():1550] shutting down sender
+2023-05-09 10:19:16,379 INFO    SenderThread:12560 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-09 10:19:16,379 INFO    SenderThread:12560 [file_pusher.py:join():172] waiting for file pusher

@@ -1,0 +1,54 @@
+
+Downloading https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s.pt to yolov5s.pt...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  3%|▎         | 384k/14.1M [01:10<43:19, 5.55kB/s]
+Traceback (most recent call last):
+  File "E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\utils\google_utils.py", line 39, in attempt_download
+    torch.hub.download_url_to_file(url, file)
+  File "E:\python3.7.6\lib\site-packages\torch\hub.py", line 619, in download_url_to_file
+    buffer = u.read(8192)
+  File "E:\python3.7.6\lib\http\client.py", line 457, in read
+    n = self.readinto(b)
+  File "E:\python3.7.6\lib\http\client.py", line 501, in readinto
+    n = self.fp.readinto(b)
+  File "E:\python3.7.6\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "E:\python3.7.6\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "E:\python3.7.6\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "E:/pycharm/govT_project/tianchi_mchar-main/yolov5-master/train.py", line 544, in <module>
+    train(hyp, opt, device, tb_writer)
+  File "E:/pycharm/govT_project/tianchi_mchar-main/yolov5-master/train.py", line 87, in train
+    attempt_download(weights)  # download if not found locally
+  File "E:\pycharm\govT_project\tianchi_mchar-main\yolov5-master\utils\google_utils.py", line 49, in attempt_download
+    file.unlink()  # remove partial downloads
+  File "E:\python3.7.6\lib\pathlib.py", line 1304, in unlink
+    self._accessor.unlink(self)
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: 'yolov5s.pt'
