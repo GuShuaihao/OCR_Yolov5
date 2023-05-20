@@ -1,5 +1,5 @@
 ## 天池学习赛——街景字符编码识别 
-_Creator： govT_
+_Creator： GuShuaihao_
 
 `Yolov5使用的重点在于：将自己的数据集制作成Yolo需要的格式，之后便可直接使用Yolov5训练、预测
 `
